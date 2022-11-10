@@ -14,17 +14,15 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-  
-
 
     steps:
-      - name: 'Before'
-        run: ls
-
       - uses: actions/checkout@v3
 
-      - name: 'Aftert'
-        run: ls
+
+      - name: "login to docker hub"
+        run: docker login --username areghagag --password dckr_pat_pwga5dhWD-ykHaE5Pac1C5UIAbo
+
+     
         
         
         
