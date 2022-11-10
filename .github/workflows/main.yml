@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      -master
+      - master
 
 
 
@@ -18,9 +18,8 @@ jobs:
 
 
     steps:
-      -name: 'Testing Guithub action '
-        run: pwd
+      - name: 'printing folder content'
+        run: ls
         
-        -name: 'Testing Printing '
-          run: echo Areg
+        
         
