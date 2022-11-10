@@ -18,7 +18,12 @@ jobs:
 
 
     steps:
-      - name: 'printing folder content'
+      - name: 'Before'
+        run: ls
+
+      - uses: actions/checkout@v
+
+      - name: 'Aftert'
         run: ls
         
         
